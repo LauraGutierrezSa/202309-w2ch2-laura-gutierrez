@@ -31,7 +31,7 @@ a {
 }
 
 .navigate {
-  color: #006c60;
+  color: #c3d1d0;
   font-size: larger;
 }
 
@@ -40,7 +40,7 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-color: #9a9fc3;
+  background-color: #007b85;
 }
 
 body {
@@ -52,7 +52,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 3rem;
-  background-color: #007b85;
+  background-color: #9a9fc3;
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 30px;
@@ -61,6 +61,38 @@ body {
 
 .entries img {
   border-radius: 10%;
+  width: 350px;
+  height: 350px;
   max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.upcoming-destinations {
+  text-align: center;
+  overflow-x: auto;
+}
+.upcoming-destinations ol {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #9a9fc3;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.destination {
+  text-align: center;
+  margin: 10px;
+}
+
+.destination img {
+  border-radius: 10px;
+  max-width: 200px;
+  max-height: 100px;
   height: auto;
+}
+.destination h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
 }
