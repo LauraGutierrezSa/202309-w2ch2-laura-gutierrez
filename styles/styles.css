@@ -68,6 +68,11 @@ body {
   object-fit: cover;
 }
 
+.entry-description {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
 .upcoming-destinations {
   text-align: center;
   overflow-x: auto;
@@ -95,4 +100,10 @@ body {
 .destination h3 {
   margin-top: 10px;
   font-size: 1.2rem;
+}
+
+.footer {
+  background-color: #007b85;
+  text-align: center;
+  color: #c3d1d0;
 }
